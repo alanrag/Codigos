@@ -1,0 +1,22 @@
+Sub salariof()
+Dim cargo As Integer
+Dim salario As Currency, bonus As Currency, salariof As Currency
+Dim nome As String
+
+nome = InputBox("Digite o nome")
+salario = InputBox("Digite o salario")
+cargo = InputBox("Digite o cargo")
+If cargo = 1 Then
+    bonus = salario * 0.15
+    salariof = salario + bonus
+ElseIf cargo = 2 Then
+    bonus = salario * 0.1
+    salariof = salario + bonus
+ElseIf cargo = 3 Then
+    bonus = salario * 0.08
+    salariof = salario + bonus
+End If
+MsgBox "Nome:" & nome
+MsgBox "Bonus" & bonus
+MsgBox "Salario final" & salariof
+End Sub

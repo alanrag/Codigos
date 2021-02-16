@@ -1,0 +1,15 @@
+Sub Ex()
+Dim n1 As Single, n2 As Single, n3 As Single, n4 As Single
+Dim ra As Integer, m As Integer
+Dim nome As String
+nome = InputBox("Qual o seu nome?" & nome, "Caixa de nome")
+ra = InputBox("Qual o seu RA?" & ra, "RA")
+n1 = InputBox("Qual a nota1?" & n1, "n1")
+n2 = InputBox("Qual a nota2?" & n2, "n2")
+n3 = InputBox("Qual a nota3?" & n3, "n3")
+n4 = InputBox("Qual a nota4?" & n4, "n4")
+m = (n1 + n2 + n3 + n4) / 4
+MsgBox "Seu nome é: " & nome, , "Nome"
+MsgBox "Seu RA é: " & ra, , "RA"
+MsgBox "Sua média é: " & m, , "Média"
+End Sub

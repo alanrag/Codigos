@@ -1,0 +1,19 @@
+Sub ExIF()
+Dim n1 As Integer, n2 As Integer, n3 As Integer, n4 As Integer, m As Integer
+Dim n As String
+
+n = InputBox("Digite o nome do aluno")
+n1 = InputBox("Informe a primeira nota")
+n2 = InputBox("Informe a segunda nota")
+n3 = InputBox("Informe a terceira nota")
+n4 = InputBox("Informe a quarta nota")
+m = (n1 + n2 + n3 + n4) / 4
+If (m >= 6) Then
+    MsgBox n
+    MsgBox "Aprovado"
+Else
+    MsgBox n
+    MsgBox "Reprovado"
+    
+End If
+End Sub
